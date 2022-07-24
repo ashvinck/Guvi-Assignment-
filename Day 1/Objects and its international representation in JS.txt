@@ -1,0 +1,52 @@
+﻿Write about objects and its internal representation in JavaScript.
+
+
+
+
+Objects are one of the most important data structures in JavaScript.Objects lets us store data about a particular thing and helps us to keep track of the data by using a key.
+        Object Literal Notation  =>   { Key : Value , }   
+
+
+        Objects  have 1) Properties 
+                               2) Methods
+     
+ In simple words,  Properties are those things that contain information about  the object.
+Methods are functions or capabilities that an object has.
+
+
+We can create objects in two ways in JavaScript :
+1. By creating an instance of Object directly (using a  new keyword).
+2. By object literal.
+
+
+By creating an instance of Object directly ( using a new keyword). 
+                  
+                   let  objectname  = new Object ();
+	
+
+             Here the new keyword is used to create a new object.
+
+
+
+
+By object literal    
+
+
+
+
+
+
+var myObj = {
+colour : “Orange”,
+shape : “sphere”,
+type : ”food”,
+eat : function () {
+return “yummy”
+                                                            } 
+                                                            };
+
+
+myObj.eat(); //method
+myObj.colour; //property
+          
+	Accessing Objects can be done  by objectName.property. Or objectName[“property”].
